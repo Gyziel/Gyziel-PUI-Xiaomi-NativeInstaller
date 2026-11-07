@@ -1,0 +1,6 @@
+id=pui_xiaomi_route_diagnostic_v7
+name=PUI | Xiaomi/Redmi/POCO 安装路由检测 v7
+version=7.0.0-preflight
+versionCode=7000
+author=天伞桜 & PanL (PUI); HyperCeiler Contributors (路由参考); Gyziel (检测封装)
+description=只读检查安装器包注册/权限/路由，不替换系统安装器。
