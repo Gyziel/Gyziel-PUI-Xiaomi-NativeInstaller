@@ -1,0 +1,6 @@
+Source adaptation: Gyziel (experimental independent Android package router Xposed module).
+Based on idea and method selection logic from HyperCeiler:
+  Copyright (C) 2023-2026 HyperCeiler Contributors
+  https://github.com/ReChronoRain/HyperCeiler
+  License: AGPL-3.0-or-later.
+Original PUI APK authors: 天伞桜 & PanL; their APK is NOT bundled or modified in this source package.

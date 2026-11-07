@@ -1,0 +1,23 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'dev.gyziel.pui.nativehook'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'dev.gyziel.pui.nativehook'
+        minSdk 34
+        targetSdk 35
+        versionCode 6
+        versionName '0.6.0-experimental'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes { release { minifyEnabled false } }
+}
+
+dependencies {
+    // Compile only. LSPosed provides the bridge at runtime; never bundle API classes.
+    compileOnly 'de.robv.android.xposed:api:82'
+}

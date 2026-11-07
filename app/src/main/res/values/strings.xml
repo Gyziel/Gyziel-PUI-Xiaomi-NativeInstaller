@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_desc">实验性 System Framework 原生安装器选择 Hook，需手动启用LSPosed system作用域。</string>
+  <string-array name="xposed_scope"><item>system</item></string-array>
+</resources>
